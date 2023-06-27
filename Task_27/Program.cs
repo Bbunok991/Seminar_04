@@ -3,28 +3,29 @@
 82 -> 10
 9012 -> 12*/
 
-using System.Runtime.InteropServices;
-
-int InPut(string message, int size)
+string InPut(string message)
 {
-    int[] array = new int[size];
     System.Console.WriteLine(message);
-    int number = Convert.ToInt32(Console.ReadLine());
+    string number = Console.ReadLine()!;
     return number;
 }
-int convert = Convert.ToInt32(Console.ReadLine());
-int length_of_number = InPut("Enter the length of the number: ", convert);
+
 string number = InPut("Enter the number: ");
 
-int Sum(int length_of_number)
+int Sum(string str)
 {
-
-    for(int i = 0; i < length_of_number; i++)
+    int sum = 0;
+    int convert;
+    for(int i = 0; i < number.Length; i++)
     {
-        convert = Convert.ToInt32(number[i]);
-        number += convert;
-        i++;
+        str = Convert.ToString(number[i]);
+        convert = Convert.ToInt32(str);
+        sum += convert;
+        
     }
-    return number;
+    return sum;
 }
-System.Console.WriteLine(Sum(number0));
+System.Console.WriteLine(Sum(number));
+
+
+
