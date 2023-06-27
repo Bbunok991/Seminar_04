@@ -1,31 +1,24 @@
-﻿/*Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
-452 -> 11
-82 -> 10
-9012 -> 12*/
+﻿/*Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+3, 5 -> 243 (3⁵)
+2, 4 -> 16*/
 
-using System.Runtime.InteropServices;
-
-int InPut(string message, int size)
+int InPut(string message)
 {
-    int[] array = new int[size];
     System.Console.WriteLine(message);
     int number = Convert.ToInt32(Console.ReadLine());
     return number;
 }
-int convert = Convert.ToInt32(Console.ReadLine());
-int length_of_number = InPut("Enter the length of the number: ", convert);
-string number = InPut("Enter the number: ");
+int number0 = InPut("Enter the first number: ");
+int number1 = InPut("Enter the second number: ");
 
-int Sum(int length_of_number)
+int Sum(int result)
 {
 
-    for(int i = 0; i < length_of_number; i++)
+    for(int i = 1; i < number1; i++)
     {
-        convert = Convert.ToInt32(number[i]);
-        number += convert;
-        i++;
+        result *= number0;
     }
-    return number;
+    return result;
 }
 System.Console.WriteLine(Sum(number0));
 

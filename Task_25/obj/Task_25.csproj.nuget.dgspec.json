@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bbuno\\Desktop\\GeekBrains\\C#\\Seminar_04\\Task_25\\Task_25.csproj": {}
+    "/Users/danilausakov/Desktop/Seminar_04/Seminar_04/Task_25/Task_25.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bbuno\\Desktop\\GeekBrains\\C#\\Seminar_04\\Task_25\\Task_25.csproj": {
+    "/Users/danilausakov/Desktop/Seminar_04/Seminar_04/Task_25/Task_25.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bbuno\\Desktop\\GeekBrains\\C#\\Seminar_04\\Task_25\\Task_25.csproj",
+        "projectUniqueName": "/Users/danilausakov/Desktop/Seminar_04/Seminar_04/Task_25/Task_25.csproj",
         "projectName": "Task_25",
-        "projectPath": "C:\\Users\\Bbuno\\Desktop\\GeekBrains\\C#\\Seminar_04\\Task_25\\Task_25.csproj",
-        "packagesPath": "C:\\Users\\Bbuno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bbuno\\Desktop\\GeekBrains\\C#\\Seminar_04\\Task_25\\obj\\",
+        "projectPath": "/Users/danilausakov/Desktop/Seminar_04/Seminar_04/Task_25/Task_25.csproj",
+        "packagesPath": "/Users/danilausakov/.nuget/packages/",
+        "outputPath": "/Users/danilausakov/Desktop/Seminar_04/Seminar_04/Task_25/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "E:\\Program Files (х86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Bbuno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/danilausakov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     }
