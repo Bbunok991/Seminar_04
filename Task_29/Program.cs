@@ -2,23 +2,29 @@
 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 6, 1, 33 -> [6, 1, 33]*/
 
-void InPut(string message, int size, int left, int right)
+int InPut(string text)
 {
-
-    System.Console.WriteLine(message);
-    int[] array = new int[size];
-    int number = Convert.ToInt32(Console.ReadLine());
+    System.Console.WriteLine(text);
+    return Convert.ToInt32(Console.ReadLine());
 }
-int number0 = InPut("Enter the lenght of the array: ");
-int number1 = InPut("Enter the second number: ");
+int size = InPut("Enter the lenght of the array: ");
+int left = InPut("Enter the left side: ");
+int right = InPut("Enter the right side: ");
 
-int[] Sum()
+int[] Array(int size, int left, int right)
 {
     Random rand = new Random();
+    int[] array = new int[size];
+
     for(int i = 0; i < array.Length; i++)
     {
-        array[index] = rand.Next(left, right);
+        array[i] = rand.Next(left, right);
+        
+        
+        
     }
-    return result;
+    return array;
+
 }
-System.Console.WriteLine(Sum(number0));
+int[] array = Array(size, left, right+1);
+System.Console.Write("[" + string.Join(", ", array) + "]");
