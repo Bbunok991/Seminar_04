@@ -4,7 +4,7 @@
 
 int InPut(string text)
 {
-    System.Console.WriteLine(text);
+    System.Console.Write(text);
     return Convert.ToInt32(Console.ReadLine());
 }
 int size = InPut("Enter the lenght of the array: ");
