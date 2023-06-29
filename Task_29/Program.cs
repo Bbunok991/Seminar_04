@@ -19,9 +19,6 @@ int[] Array(int size, int left, int right)
     for(int i = 0; i < array.Length; i++)
     {
         array[i] = rand.Next(left, right);
-        
-        
-        
     }
     return array;
 
